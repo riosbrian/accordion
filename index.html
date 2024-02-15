@@ -6,6 +6,64 @@
     <title>Accordion</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <section class="faqs">
+        <div class="faqs__heading">
+          <h1 class="faqs__title">Acordeon en <span class="lemon">HTML, CSS y Javascript</span></h1>
+        </div>
+        <div class="accordion">
+          <div class="accordion__item active">
+            <div class="accordion__header">
+              <h2 class="accordion__title">¿Qué es un acordeón en la web?</h2>
+              <span class="accordion__icon">&#45</span>
+            </div>
+            <p class="accordion__content">
+              Un acordeón en la web es un elemento de la interfaz de usuario que
+              se utiliza para organizar y presentar contenido de forma
+              jerárquica. Se compone de una serie de secciones o paneles que
+              pueden expandirse o contraerse según la interacción del usuario.
+              Esto permite mostrar de manera eficiente una gran cantidad de
+              información, manteniendo la interfaz limpia y organizada.
+            </p>
+          </div>
+          <div class="accordion__item">
+            <div class="accordion__header">
+              <h2 class="accordion__title">¿Cómo funciona un acordeón?</h2>
+              <span class="accordion__icon">&#43</span>
+            </div>
+            <p class="accordion__content">
+              El funcionamiento básico de un acordeón implica la presencia de
+              varios elementos, cada uno con un encabezado y un contenido
+              asociado. Cuando el usuario hace clic en el encabezado o botón, el
+              contenido correspondiente se despliega de manera animada,
+              revelando más información. Esta interacción es generalmente suave
+              y se logra mediante el uso de JavaScript y CSS para controlar la
+              expansión y contracción del contenido.
+            </p>
+          </div>
+          <div class="accordion__item">
+            <div class="accordion__header">
+              <h2 class="accordion__title">
+                ¿Cómo implementar un acordeón en la web?
+              </h2>
+              <span class="accordion__icon">&#43</span>
+            </div>
+            <p class="accordion__content">
+              Primero se debe estructurar el HTML adecuadamente, dividiendo el
+              contenido en secciones y asegurándose de asignar clases o
+              identificadores apropiados. Luego, se aplican estilos CSS para
+              darle el aspecto deseado al acordeón. Finalmente, se utiliza
+              JavaScript para agregar la funcionalidad de interacción,
+              permitiendo que el usuario expanda y contraiga las secciones del
+              acordeón mediante su interacción, ya sea haciendo clic en los
+              encabezados o utilizando otros eventos de activación.
+            </p>
+          </div>
+        </div>
+      </section>
+      <a href="https://github.com/riosbrian" target="_blank" class="developedBy">Developed by <span class="lemon">Brian Rios</span></a>
+    </main>
+  </body>
   <script src="index.js"></script>
 </html>
